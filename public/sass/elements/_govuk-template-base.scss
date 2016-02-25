@@ -12,7 +12,6 @@ main {
   display: block;
 }
 
-// (Normalize.css)
 // 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
 //    http://clagnut.com/blog/348/#c790
 //    note - font-size reduced to 62.5% to allow simple rem/px font-sizing and fallback
@@ -30,9 +29,9 @@ html {
   -webkit-text-size-adjust: 100%; // 4
   -ms-text-size-adjust: 100%; // 4
   -ms-overflow-style: scrollbar; // 5
+  background-color: $white;
 }
 
-// (Normalize.css)
 // 1. Font-size increased to compensate for change to html element font-size in
 //    order to support beta typography which was set in ems
 //    (62.5% * 160% = 100%)
@@ -41,9 +40,7 @@ html {
 body {
   font-size: 160%; // 1
   margin: 0; // 2
-}
 
-body {
   background: $white;
   color: $text-colour;
   line-height: 1.5;
@@ -61,7 +58,6 @@ fieldset {
   padding: 0;
 }
 
-// (Normalize.css)
 b,
 strong {
   font-weight: 600;
